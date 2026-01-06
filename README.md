@@ -1,51 +1,30 @@
-# Welcome to your Expo app 👋
+## Styliser un composant avec StyleSheet – Application BookShelf
+### Overview
+Jusqu’ici, plusieurs composants React Native de base ont été manipulés (View, Text, ScrollView) et stylés avec des styles en ligne. On a vu que cette approche devient vite difficile à maintenir dans des applications plus grandes. L’API StyleSheet permet au contraire de centraliser les styles et de garder le code JSX propre et lisible.
+Dans ce lab, l’objectif est de styliser les composants d’une petite application de bibliothèque numérique, BookShelf, puis d’extraire tous les styles vers l’API StyleSheet.
+### Scenario
+#### On dispose d’une application simple appelée BookShelf qui affiche :
+* un en-tête avec le nom de l’application,
+* un écran de bienvenue avec un texte descriptif,
+* un pied de page avec une mention de droits.
+#### L’application est déjà fonctionnelle, mais le style actuel est très basique et défini en ligne.La direction demande maintenant un thème visuel plus professionnel, avec une palette cohérente :
+* #EE9972 (accent / bandeau),
+* #333333 (fond sombre ou texte principal),
+* #EDEFEE (fond clair),
+* black,
+* white.
+#### L’objectif est donc :
+* d’adapter le style des composants pour correspondre à cette nouvelle charte BookShelf,
+* d’extraire tous les styles vers StyleSheet pour rendre le code plus lisible.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Création du projet 
+<img width="959" height="504" alt="Lab4" src="https://github.com/user-attachments/assets/b7bf1b8c-6716-42fc-9e85-f1611f6c2c0e" />
 
-## Get started
+### Exécution 
+<img width="959" height="468" alt="Lab4 2" src="https://github.com/user-attachments/assets/b003cb5d-8c1c-4906-a5ca-e0dc8749c3e3" />
+<img width="478" height="476" alt="Lab4 3" src="https://github.com/user-attachments/assets/018b67d3-3945-461e-ba56-3d4535ae331c" />
 
-1. Install dependencies
+https://github.com/user-attachments/assets/162cf562-637c-484e-ac70-4d977bd84e2a
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# Application-BookShelf" 

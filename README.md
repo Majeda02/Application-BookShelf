@@ -26,5 +26,9 @@ Dans ce lab, l’objectif est de styliser les composants d’une petite applicat
 
 https://github.com/user-attachments/assets/162cf562-637c-484e-ac70-4d977bd84e2a
 
-
+### Auteur
+* Nom : BEN-LAGHFIRI Majeda
+* Cours: React Native
+* Date : Janvier 2026
+* Encadré par : Pr.Mohamed LACHGAR
 
